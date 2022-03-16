@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Instant Abstract Books",
+        "description": "Generate an abstract book in a PDF or other format instantly with just the click of a button.",
+        "image": "https://i.ibb.co/27B5p02/abstractbookcarousel.jpg",
+        "id": 1
+    },
+    {
+        "title": "Delegate Networking",
+        "description": "Allow your delegates to chat freely with instant messaging and group chat ability.",
+        "image": "https://i.ibb.co/5xZ1TZY/networking2-1.png",
+        "id": 2
+    },
+    {
+        "title": "Poster Gallery",
+        "description": "Wow your audience with an interactive and engaging poster gallery.",
+        "image": "https://i.ibb.co/F6NvZMh/poster-gallery-1.png",
+        "id": 3
+    },
+    {
+        "title": "Access Controls",
+        "description": "Share your event content with only those you select.",
+        "image": "https://i.ibb.co/GctgGWR/accesscontrol-1.png",
+        "id": 4
+    },
+    {
+        "title": "Sponsors ",
+        "description": "Display your event sponsors across the platform including sponsored sessions.",
+        "image": "https://i.ibb.co/NYMtkYP/sponsors-1.png",
+        "id": 5
+    },
+    {
+        "title": "Exhibitor Space",
+        "description": "Showcase exhibitors at your event and allow them to connect and engage with delegates.",
+        "image": "https://i.ibb.co/GdnJfYZ/exhibitorspace-1.png",
+        "id": 6
+    },
+    {
+        "title": "Mobile Friendly",
+        "description": "Oxford Abstracts works seamlessly on mobile or tablet devices for both your admins and delegates.",
+        "image": "https://i.ibb.co/SPhkXw3/mobilefrendly.png",
+        "id": 7
+    }
+]
