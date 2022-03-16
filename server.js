@@ -2,10 +2,12 @@ const express = require('express')
 const { graphqlHTTP } = require('express-graphql')
 const { buildSchema } = require('graphql')
 const features = require('./features.json')
+const cors = require('cors');
 
 const schema = buildSchema(`
   type Query {
-      page_title: String
+      hello(name: String): String!
+      page_title: String!
       page_subtitle: String
       features(id: Int): [Feature!]!
   }
@@ -14,6 +16,7 @@ const schema = buildSchema(`
       id: Int!
       title: String!
       description: String
+      image: String
   }
 
   type Mutation { 
@@ -23,6 +26,7 @@ const schema = buildSchema(`
   `)
 
 const root = {
+    hello: ({name}) => `Hello ${name || 'anonymous'}`,
     page_title: () => 'Just some of the features',
     page_subtitle: () => 'Here\'s just a glimpse at some of the amazing things you can do using the platform.',
     features: ({ id }) =>
@@ -40,6 +44,7 @@ const root = {
 }
 
 const app = express()
+app.use(cors())
 
 app.use('/graphql', graphqlHTTP({
     schema,

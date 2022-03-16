@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/OxfordAbstracts/candidate-pair-programming#readme",
   "dependencies": {
+    "@apollo/client": "^3.5.10",
+    "cors": "^2.8.5",
     "express": "^4.17.3",
     "express-graphql": "^0.12.0",
     "graphql": "^15.8.0",

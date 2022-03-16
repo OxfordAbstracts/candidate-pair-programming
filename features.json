@@ -40,5 +40,11 @@
         "description": "Oxford Abstracts works seamlessly on mobile or tablet devices for both your admins and delegates.",
         "image": "https://i.ibb.co/SPhkXw3/mobilefrendly.png",
         "id": 7
+    },
+    {
+        "title": "Unfinished thing",
+        "description": null,
+        "image": "https://i.ibb.co/SPhkXw3/mobilefrendly.png",
+        "id": 7
     }
 ]
