@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start-server": "node server",
-    "start": "parcel client/index.html --open",
+    "dev-server": "nodemon server",
+    "dev-client": "parcel client/index.html --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
